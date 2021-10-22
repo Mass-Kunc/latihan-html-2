@@ -1,0 +1,328 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:lucida fax, arial; 
+}
+
+body{
+	background : url(../gambar/nnn.jpg)
+}
+
+#wrapper {
+	width : 1090px;
+	margin : 0 auto;
+	overflow : hidden;
+}
+
+#header {
+	background: #ffda77;
+	margin-top:16px;
+	width : 100%; 	
+	height:122px;
+	padding:4px;
+	overflow:hidden;
+	border-bottom:6px solid #ff7b2b;
+}
+
+.judul{
+	margin-top:16px;
+	font-family: Elephant, Arial ;
+	font-size: 50px;
+	text-align:center;
+}
+
+.slogan{
+	margin-top:6px;
+	font-family:  monotype corsiva ,maiandra GD;
+	Font-size : 22px;
+	text-align : center;
+}
+
+.loki{
+	margin-left:89px;
+	margin-top:5px;
+	width : 100px;
+	float : left;
+	padding :3px;
+}
+
+.loka{
+	margin-right:100px;
+	margin-top:5px;
+	width : 100px;
+	float : right;
+	padding :3px;
+}
+
+.slide{
+	overflow:hidden;
+	height:480px;
+
+}
+
+.slide figure{
+	position:relative;
+	margin:0px;
+	left:0;
+	animation:25s slidy infinite;
+	width:500%;
+}
+
+.slide figure div{
+	float:left;
+	width:20%;
+}
+
+.slide figure img{
+	margin-left:33px;
+	height:100%;
+	width:93%;
+	float:left;
+	position:center;
+}
+
+@keyframes slidy{
+	0%{
+		left:0%;
+	}
+	10%{
+		left:0%;
+	}
+	12%{
+		left:-100%;
+	}
+	22%{
+		left:-100%;
+	}
+	24%{
+		left:-200%;
+	}
+	34%{
+		left:-200%;
+	}
+	36%{
+		left:-300%;
+	}
+	46%{
+		left:-300%;
+	}
+	48%{
+		left:-400%;
+	}
+	58%{
+		left:-400%;
+	}
+	60%{
+		left:-300%;
+	}
+	70%{
+		left:-300%;
+	}
+	72%{
+		left:-200%;
+	}
+	82%{
+		left:-200%;
+	}
+	84%{
+		left:-100%;
+	}
+	94%{
+		left:-100%;
+	}
+	96%{
+		left:0%;
+	}
+}
+
+
+.slide btn{
+	position:absolute;
+	border:none;
+	width:50px;
+	height:40px;
+	border-radius: 25px;
+	top : 250px;
+	Background : #003405;
+	color: #f6ff00;
+	font-size :21px;
+}
+
+.slide btn :hover{
+	color : #fc0202;
+	text-decoration:none;
+}
+
+.slide btn2{
+	position:relative;
+	float : right;
+}
+
+.cari {
+	float:right;
+	margin-right:55px;
+	padding-bottom: 30px;
+	font-weight:bold;
+}
+#menuu {
+	margin-top:2px;
+	padding-top:7px;
+	height:46px;
+	border-bottom:3px solid #11b100;
+	border-top:3px dashed #11b100;
+	box-shadow:0px 3px 9px gray;
+}
+
+#menu-utama{
+	margin-top:-7px;	
+	text-align:center;
+	margin-bottom:6px;
+	list-style:none;
+	margin-left:56px;
+}
+#menu-utama li{	
+	float : left;
+	width:125px;
+	height:56px;
+	margin-right:38px;
+	background-color:#116a02;
+}
+
+#menu-utama li a{
+	Display:block;
+	line-height:56px;
+	font-weight:bold;
+	color : white;
+	text-decoration:none;
+}
+
+#menu-utama li a:hover {
+	background:#78ff00;
+	color : #122402;
+	text-decoration:none;
+}
+
+#daftar-artikel {
+	width:1080px;
+	overflow:hidden;
+	margin-top:2px;
+}
+
+.artikel{
+	float:center;
+	background: #faffa9;
+	padding:11px;
+	overflow:hidden;
+	margin-bottom:17px;
+	box-shadow:0px 3px 9px gray;
+}
+
+.artikel img{
+	float:left;
+	margin:9px;
+	width:200px;
+}
+
+.artikel b{
+	color:#616060;
+	background:#dddddd;
+	padding:4px;
+	font-weight:bold;
+	font-size:11.5px;
+	margin-right:9px;
+}
+
+.artikel p{
+	margin:19px;
+}
+
+.artikel a{
+	float:right;
+	margin-left:10px;
+	Margin-top:94px;
+}
+
+
+#sidebara{
+	float:left;
+	margin-top: 3px;
+	height:700px;
+	padding:8px;
+	margin-right:10px;
+	border-right:3px dashed green;
+}
+
+#sidebara h2{
+	margin:2px;
+	padding-right:3px;
+	font-size:22px;
+}
+
+
+#sidebara ul{
+	margin-left:22px;
+	list-style:circle;
+}
+
+#sidebara li a{
+	font-size:24px;
+	font-weight:bold;
+	color:#8d01b0;
+	text-shadow: 0px 1px 2px #ffc000;
+	text-decoration:none;
+}	
+
+#sidebara  li a:hover{
+	display:block;
+	background-color:#f5f06e;
+	color:black;
+	text-shadow: 0px 1px 2px #ffc000;
+}
+
+#sidebarb{
+	float:right;
+	margin-top: 3px;
+	height:700px;
+	padding:8px;
+	margin-left:16px;
+	border-left:3px dashed green;
+}
+
+#sidebarb h2{
+	margin:2px;
+	padding-left:7px;
+	font-size:22px;
+}
+
+#sidebarb ul{
+	margin-left:24px;
+	padding-left:7px;
+	list-style:circle;
+	
+}
+
+#sidebarb li a{
+	font-size:24px;
+	font-weight:bold;
+	color:#8d01b0;
+	text-shadow: 0px 1px 2px #ffc000;
+	text-decoration:none;
+}	
+
+#sidebarb  li a:hover{
+	display:block;
+	background-color:#f5f06e;
+	color:black;
+	text-shadow: 0px 1px 2px #ffc000;
+}
+
+#footer{
+	width: auto;
+	clear:both;
+	margin-top : 31px;
+	text-align:center;
+	background-color:#555555;
+	padding:12px;
+	color:#f0f0f0;
+}
+
